@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $recipient = "tonypowa@gmail.com"; // Cambia esto por el email de la clínica
+    $recipient = ""; // Cambia esto por el email de la clínica
     $subject = "Nuevo mensaje de contacto de $name";
     $email_content = "Nombre: $name\n";
     $email_content .= "Email: $email\n";
